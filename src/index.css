@@ -3,3 +3,27 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  text-decoration-style: none;
+  list-style-type: none;
+}
+.navs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.nav {
+    border: 3px solid gray;
+    border-radius: 4px;
+    padding: 0px;
+    margin: 5px;
+    background: khaki;
+    text-align: center;
+    -ms-flex-preferred-size: 20%;
+    flex-basis: 14%;
+    cursor: pointer;
+}
